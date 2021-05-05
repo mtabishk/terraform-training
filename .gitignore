@@ -2,7 +2,8 @@
 *.tfstate
 *.tfstate.backup
 *.tfstate.lock.info
-*.lock.hcl
+terraform.lock.hcl
+
 # logs
 *.log
 
