@@ -7,7 +7,6 @@ resource "aws_s3_bucket" "mybucket" {
 
   lifecycle {
     prevent_destroy = true
-
   }
   tags = {
     Name = "My Terraform bucket"
